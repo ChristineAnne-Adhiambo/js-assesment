@@ -31,18 +31,19 @@ function binarySearch(arr,target){
   console.log(binarySearch([2,8,0,23,5,45,76],23))
   /*Given years between 2000 and 2023, console all the leap years in the following
 sentence, i.e “2020 is a leap year” if not console log i.e “2001 is not a leap year”*/
-function leapYear(){
+let i = 2000;
   for(let i=2000; i<=2023; i++){
     if(i%4===0){
-    console.log({i}+ "is not a leap year");
+    console.log(i + " is not a leap year");
     } else {
-    console.log({i} + "is a leap year");
+    console.log(i + " is a leap year");
     }
     }
-  }
+  
   
     /*Given a range of numbers from 0 to 100, console”Fizz” if the numbers are divisible by 3,
 “Buzz” if the numbers are divisible by 5, and “FizzBuzz” if divisible by both 3 and 5.*/
+
     for(let i=0; i<=100; i++){
     if(i%3===0 && i%5===0){
     console.log("FizzBuzz");
